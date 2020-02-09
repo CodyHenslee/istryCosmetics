@@ -1200,6 +1200,71 @@ h5, h6          { font-weight: bolder }
     -o-background-size: cover;
     background-position: 50% 50%;
 }
+.topart{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background-color: #ff3300;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+}
+.topchem{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background-color: #00cc00;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+}
+.topsets{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background-color: #42cfff;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+}
+.topabout{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background-color: #42cfff;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+}
+.topfaq{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    background-color: #42cfff;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+}
 	 
 	 header #menu_icon,
     header .close_menu{
