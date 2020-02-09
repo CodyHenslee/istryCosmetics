@@ -1202,7 +1202,7 @@ h5, h6          { font-weight: bolder }
 }
 .topart{
     width: 100%;
-    height: 200px;
+    height: 125px;
     overflow: hidden;
     display: block;
     position: relative;
@@ -1215,7 +1215,7 @@ h5, h6          { font-weight: bolder }
 }
 .topchem{
     width: 100%;
-    height: 200px;
+    height: 125px;
     overflow: hidden;
     display: block;
     position: relative;
@@ -1228,7 +1228,7 @@ h5, h6          { font-weight: bolder }
 }
 .topsets{
     width: 100%;
-    height: 200px;
+    height: 125px;
     overflow: hidden;
     display: block;
     position: relative;
@@ -1241,7 +1241,7 @@ h5, h6          { font-weight: bolder }
 }
 .topabout{
     width: 100%;
-    height: 200px;
+    height: 125px;
     overflow: hidden;
     display: block;
     position: relative;
@@ -1254,7 +1254,7 @@ h5, h6          { font-weight: bolder }
 }
 .topfaq{
     width: 100%;
-    height: 200px;
+    height: 125px;
     overflow: hidden;
     display: block;
     position: relative;
