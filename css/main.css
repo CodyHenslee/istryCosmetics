@@ -961,7 +961,7 @@ h5, h6          { font-weight: bolder }
     header #menu_icon,
     header .close_menu{
         float: right;
-        margin: 30px 30px 0 0;
+        margin: 30px 30px 30px 0;
     }
     
     header nav{
