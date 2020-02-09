@@ -1018,7 +1018,12 @@ h5, h6          { font-weight: bolder }
 }
 
 @media (max-width:722px){
-     .main .work{
+     header #menu_icon,
+    header .close_menu{
+        float: right;
+        margin: 10px 30px 30px 0;
+	}
+	 .main .work{
         width: 100%;
     }
 	.show_menu{
