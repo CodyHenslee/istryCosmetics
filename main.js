@@ -8,7 +8,7 @@ var ui = ShopifyBuy.UI.init(client);
 
 
 
-//ui.createCart({}).then(function(cart){console.log(cart);})
+ui.createCart({}).then(function(cart){console.log(cart);})
 
 var test = ui.createComponent('product', {
     handle: 'tester',
