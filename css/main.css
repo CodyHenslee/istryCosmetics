@@ -277,7 +277,11 @@ h5, h6          { font-weight: bolder }
     box-sizing: border-box;
     position: relative;
     z-index: 55;
+<<<<<<< HEAD
     background: #ffffff;
+=======
+    background: #fff;
+>>>>>>> 542a68b7c75e05bcdc67c2c38fbebdc030929c62
     clear: both;
 }
 
