@@ -6,11 +6,16 @@ var client = ShopifyBuy.buildClient({
 
 var ui = ShopifyBuy.UI.init(client);
 
+
+
+ui.createCart({}).then(function(cart){console.log(cart);})
+
 var test = ui.createComponent('product', {
-    id: 4552641904779,
+    handle: 'tester',
 	node: document.getElementById('test'),
     options: {
       product: {
+		  width: '100%',
 		 buttonDestination: 'modal',
 		 layout: 'horizontal',
           contents: {
