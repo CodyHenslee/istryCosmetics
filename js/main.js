@@ -1,3 +1,7 @@
+let divs = document.getElementsByTagName("div");
+console.log(divs); // Let's output the results
+
+
 $(document).ready(function(){
 
 
