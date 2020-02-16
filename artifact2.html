@@ -65,7 +65,7 @@
 			</div>		
 		</section><!-- end top -->
 		<section class="wrapper">
-				<div class="content2">
+				<div id="test" class="content2">
 				<script>
 				var client = ShopifyBuy.buildClient({
     domain: 'istryCosmetics.myshopify.com',
@@ -76,6 +76,7 @@ var ui = ShopifyBuy.UI.init(client);
 
 var test = ui.createComponent('product', {
     id: 4529933058187,
+	node: document.getElementsByNameId('test'),
     options: {
       product: {
         layout: 'horizontal',
