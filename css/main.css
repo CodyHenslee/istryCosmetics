@@ -1272,14 +1272,14 @@ h5, h6          { font-weight: bolder }
 	header #menu_icon,
     header .close_menu{
         float: right;
-        margin: 5px 30px 45px 0;
+        margin: 0px 30px 30px 0;
     }
     
 	
     #menu_icon,
     header .close_menu{
         float: right;
-        margin: 5px 30px 45px 0;
+        margin: 0px 30px 30px 0;
 	}
 	.main .work{
         width: 100%;
@@ -1291,7 +1291,7 @@ h5, h6          { font-weight: bolder }
         width: 100%;
         position: relative;
         padding-left: 0;
-		margin-top: 125px;
+		margin-top: 100px;
     }
 	header nav{
         width: 100%;
