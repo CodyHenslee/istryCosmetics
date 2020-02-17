@@ -28,11 +28,10 @@ ui.createComponent('collection', {
 		
 	  modalProduct: {
 		  contents: {
-			  quantity: true,
-			  quantityIncrement: true,
-			  quantityDecrement: true,
 			  img: false,
 			  imgWithCarousel: true,
+			  button: false,
+		      buttonWithQuantity: true,
 			  
 			}
 		}	
