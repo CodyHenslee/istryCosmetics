@@ -20,11 +20,22 @@ ui.createComponent('collection', {
           contents: {
              description: false,
 		     button: false,
-		     buttonWithQuantity: false
+		     buttonWithQuantity: false,
 		  
 			}
         
-		}
+		},
+		
+	  modalProduct: {
+		  contents: {
+			  quantity: true,
+			  quantityIncrement: true,
+			  quantityDecrement: true,
+			  img: false,
+			  imgWithCarousel: true,
+			  
+			}
+		}	
     }
 
 }).then(function(collection){console.log(collection);})
