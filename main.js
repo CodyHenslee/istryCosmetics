@@ -18,10 +18,11 @@ var test = ui.createComponent('product', {
 	node: document.getElementById('test'),
     options: {
       product: {
-		  width: '100%',
-		 buttonDestination: 'modal',
+		 width: '100%',
 		 layout: 'horizontal',
           contents: {
+			 img: false,
+			 imgWithCarousel: true,
              description: true,
 		     button: false,
 		     buttonWithQuantity: true
@@ -31,4 +32,5 @@ var test = ui.createComponent('product', {
 		}
     }
 
-}).then(function(product){console.log(product);})
+}).then(function(product){console.log(product.handle);})
+
