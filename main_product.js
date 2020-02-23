@@ -28,6 +28,13 @@ ui.createComponent('product', {
 		  
 			}
         
+		},
+		toggle: {
+			styles: {
+				toggle: {
+					'background-color': 'black',
+				}
+			}
 		}
     }
 

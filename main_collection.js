@@ -34,7 +34,14 @@ ui.createComponent('collection', {
 		      buttonWithQuantity: true,
 			  
 			}
-		}	
+		},
+		toggle: {
+			styles: {
+				toggle: {
+					'background-color': 'black',
+				}
+			}
+		}		
     }
 
 }).then(function(collection){console.log(collection);})
