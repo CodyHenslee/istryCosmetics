@@ -20,7 +20,6 @@ ui.createComponent('collection', {
              description: false,
 		     button: false,
 		     buttonWithQuantity: false,
-		  
 			}
         
 		},
@@ -31,13 +30,18 @@ ui.createComponent('collection', {
 				}
 			}
 		},
-	  modalProduct: {
+	    modalProduct: {
 		  contents: {
 			  img: false,
 			  imgWithCarousel: true,
 			  button: false,
 		      buttonWithQuantity: true,
 			  
+			},
+			styles: {
+				button: {
+					'background-color': 'black',
+				}
 			}
 		},
     }
