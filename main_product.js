@@ -10,7 +10,6 @@ var client = ShopifyBuy.buildClient({
 
 var ui = ShopifyBuy.UI.init(client);
 
-ui.createCart({}).then(function(cart){console.log(cart);})
 
 ui.createComponent('product', {
     id: id_product.value,
@@ -24,7 +23,7 @@ ui.createComponent('product', {
 			 imgWithCarousel: true,
              description: true,
 		     button: false,
-		     buttonWithQuantity: true
+		     buttonWithQuantity: true,
 		  
 			}
         

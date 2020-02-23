@@ -8,7 +8,6 @@ var client = ShopifyBuy.buildClient({
 
 var ui = ShopifyBuy.UI.init(client);
 
-ui.createCart({}).then(function(cart){console.log(cart);})
 
 ui.createComponent('collection', {
     id: id_collection.value,
@@ -25,7 +24,13 @@ ui.createComponent('collection', {
 			}
         
 		},
-		
+		toggle: {
+			styles: {
+				toggle: {
+					'background-color': 'black',
+				}
+			}
+		},
 	  modalProduct: {
 		  contents: {
 			  img: false,
@@ -35,13 +40,6 @@ ui.createComponent('collection', {
 			  
 			}
 		},
-		toggle: {
-			styles: {
-				toggle: {
-					'background-color': 'black',
-				}
-			}
-		}		
     }
 
 }).then(function(collection){console.log(collection);})
