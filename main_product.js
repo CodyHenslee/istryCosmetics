@@ -24,7 +24,11 @@ ui.createComponent('product', {
              description: true,
 		     button: false,
 		     buttonWithQuantity: true,
-		  
+			},
+			styles: {
+				button: {
+					'background-color': 'black',
+				}
 			}
         
 		},
