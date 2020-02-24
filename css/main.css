@@ -189,35 +189,35 @@ h5, h6          { font-weight: bolder }
 
 
     header ul.social li a:hover{
-        background: url('../img/sm_hover.png') no-repeat;
+        background: url('../img/sm-hover.png') no-repeat;
     }
 
 
 
     header ul.social li a.fb,
     header ul.social li a.fb:hover{
-        background-position: 0 0;
+        background-position: -109px 0;
     }
 
 
-    header ul.social li a.google,
-    header ul.social li a.google:hover{
-        background-position: -31px 0;
+    header ul.social li a.youtube,
+    header ul.social li a.youtube:hover{
+        background-position: -145px -73px;
     }
 
-    header ul.social li a.behance,
-    header ul.social li a.behance:hover{
-        background-position: -62px 0;
+    header ul.social li a.instagram,
+    header ul.social li a.instagram:hover{
+        background-position: 0 -35px;
     }
 
     header ul.social li a.twitter,
     header ul.social li a.twitter:hover{
-        background-position: -93px 0;
+        background-position: -72px -72px;
     }
 
-    header ul.social li a.dribble,
-    header ul.social li a.dribble:hover{
-        background-position: -124px 0;
+    header ul.social li a.snapchat,
+    header ul.social li a.snapchat:hover{
+        background-position: -145px -35px;
     }
 
     header ul.social li a.rss,
