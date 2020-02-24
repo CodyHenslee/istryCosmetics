@@ -38,9 +38,19 @@ ui.createComponent('product', {
 			}
         
 		},
-		toggle: {
-			styles: {
+	  toggle: {
+		    styles: {
 				toggle: {
+					'background-color': 'black',
+					':hover': {
+						'background-color': color_id.value,
+					}
+				}
+			}
+		},
+		cart: {
+			styles: {
+				button: {
 					'background-color': 'black',
 					':hover': {
 						'background-color': color_id.value,

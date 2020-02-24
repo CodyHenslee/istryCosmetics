@@ -42,6 +42,16 @@ ui.createComponent('product', {
 					}
 				}
 			}
+		},
+		cart: {
+			styles: {
+				button: {
+					'background-color': 'black',
+					':hover': {
+						'background-color': '#454545',
+					}
+				}
+			}
 		}
     }
 

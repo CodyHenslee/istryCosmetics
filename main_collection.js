@@ -23,7 +23,19 @@ ui.createComponent('collection', {
              description: false,
 		     button: false,
 		     buttonWithQuantity: false,
-			}
+			},
+			styles: {
+				product: {
+				'float': 'left',
+				'min-width': '305px', 
+				},
+				button: {
+					'background-color': 'black',
+					':hover': {
+						'background-color': color_id.value,
+					}
+				}
+			},
         
 		},
 		toggle: {
@@ -43,7 +55,9 @@ ui.createComponent('collection', {
 			  button: false,
 		      buttonWithQuantity: true,
 			  
-			},
+			}
+		},
+		cart: {
 			styles: {
 				button: {
 					'background-color': 'black',
