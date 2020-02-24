@@ -132,14 +132,14 @@ h5, h6          { font-weight: bolder }
     }
 
     header .logo{
-        margin-top: 50px;
+        margin-top: 70px;
 		margin-right: 20px;
     }
 
     header nav ul{
         display: block;
         overflow: hidden;
-        margin-top: 50px;
+        margin-top: 80px;
         list-style: none;
     }
 
@@ -1282,6 +1282,7 @@ h5, h6          { font-weight: bolder }
     -o-background-size: cover;
     background-position: 50% 50%;
 }
+
 	header #menu_icon,
     header .close_menu{
         float: right;
