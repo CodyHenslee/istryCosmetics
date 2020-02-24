@@ -27,7 +27,7 @@ ui.createComponent('collection', {
 			styles: {
 				product: {
 				'float': 'left',
-				'min-width': '305px', 
+				'min-width': '315px', 
 				},
 				button: {
 					'background-color': 'black',
