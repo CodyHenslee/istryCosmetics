@@ -1,6 +1,9 @@
 var id_collection = document.querySelector('input[name=id_collection]');
 console.log(id_collection.value);
 
+var color_id = document.querySelector('input[name=color]');
+console.log(color_id.value);
+
 var client = ShopifyBuy.buildClient({
     domain: 'istryCosmetics.myshopify.com',
     storefrontAccessToken: '5077a97b14abc0c873e64b48b3caa088'
@@ -27,6 +30,9 @@ ui.createComponent('collection', {
 			styles: {
 				toggle: {
 					'background-color': 'black',
+					':hover': {
+						'background-color': color_id.value,
+					}
 				}
 			}
 		},
@@ -41,6 +47,9 @@ ui.createComponent('collection', {
 			styles: {
 				button: {
 					'background-color': 'black',
+					':hover': {
+						'background-color': color_id.value,
+					}
 				}
 			}
 		},

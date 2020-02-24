@@ -2,6 +2,9 @@
 var id_product = document.querySelector('input[name=id_handle]');
 console.log(id_product.value);
 
+var color_id = document.querySelector('input[name=color]');
+console.log(color_id.value);
+
 
 var client = ShopifyBuy.buildClient({
     domain: 'istryCosmetics.myshopify.com',
@@ -28,6 +31,9 @@ ui.createComponent('product', {
 			styles: {
 				button: {
 					'background-color': 'black',
+					':hover': {
+						'background-color': color_id.value,
+					}
 				}
 			}
         
@@ -36,6 +42,9 @@ ui.createComponent('product', {
 			styles: {
 				toggle: {
 					'background-color': 'black',
+					':hover': {
+						'background-color': color_id.value,
+					}
 				}
 			}
 		}

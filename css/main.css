@@ -316,7 +316,7 @@ h5, h6          { font-weight: bolder }
     height: 100%;
     top: 0; 
     left: 0;
-    background: #04a7e2;
+    background:#9c9dff;
     opacity: 0;
 }
 .main .work .caption2{
@@ -326,7 +326,7 @@ h5, h6          { font-weight: bolder }
     height: 100%;
     top: 0; 
     left: 0;
-    background: #00cc00;
+    background: #ffe296;
     opacity: 0;
 }
 .main .work .caption3{
@@ -336,7 +336,7 @@ h5, h6          { font-weight: bolder }
     height: 100%;
     top: 0; 
     left: 0;
-    background: #ff3300;
+    background: #ffab8c;
     opacity: 0;
 }
 .main .work .caption4{
@@ -346,7 +346,7 @@ h5, h6          { font-weight: bolder }
     height: 100%;
     top: 0; 
     left: 0;
-    background: #0066cc;
+    background: #7cff97;
     opacity: 0;
 }
 .main .work .caption5{
@@ -1096,7 +1096,7 @@ h5, h6          { font-weight: bolder }
     overflow: hidden;
     display: block;
     position: relative;
-    background-color: #ffe296;
+    background-color: #00cc00;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1109,7 +1109,7 @@ h5, h6          { font-weight: bolder }
     overflow: hidden;
     display: block;
     position: relative;
-    background-color: #ffab8c;
+    background-color: #ff3300;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;

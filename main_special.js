@@ -37,6 +37,9 @@ ui.createComponent('product', {
 			styles: {
 				toggle: {
 					'background-color': 'black',
+					':hover': {
+						'background-color': '#454545',
+					}
 				}
 			}
 		}
