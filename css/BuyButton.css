@@ -618,8 +618,8 @@ input[type=number]::-webkit-outer-spin-button {
 
   .shopify-buy__product {
     padding: 15px;
-    position: absolute;
-    top: 0;
+    /*position: absolute;*/
+    /*top: 0;*/
     left: 0;
   }
 
