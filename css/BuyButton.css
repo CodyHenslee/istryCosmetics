@@ -467,7 +467,7 @@ input[type=number]::-webkit-outer-spin-button {
       margin-left: calc(40% + 25px);
     }
 }
-@media (min-width: 680px) {
+@media (min-width: 800px) {
     .shopify-buy__layout-horizontal:not(.no-image) .shopify-buy__product-img-wrapper {
       float: left;
       width: 60%;
