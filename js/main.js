@@ -10,8 +10,6 @@ $(document).ready(function(){
         return false;
     });
 
-    
-
     //Contact Page Map Centering
     var hw = $('header').width() + 50;
     var mw = $('#map').width();

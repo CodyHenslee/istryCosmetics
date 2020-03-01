@@ -17,6 +17,7 @@ ui.createComponent('collection', {
 	node: document.getElementById('collection'),
     options: {
       product: {
+		  iframe: false,
 		  isButton: true,
 		  buttonDestination: 'modal',
           contents: {
@@ -39,6 +40,7 @@ ui.createComponent('collection', {
         
 		},
 		toggle: {
+			iframe: false,
 			styles: {
 				toggle: {
 					'background-color': 'black',
@@ -47,6 +49,9 @@ ui.createComponent('collection', {
 					}
 				}
 			}
+		},
+		modal: {
+			iframe: false,
 		},
 	    modalProduct: {
 		  contents: {
@@ -58,6 +63,7 @@ ui.createComponent('collection', {
 			}
 		},
 		cart: {
+			iframe: false,
 			styles: {
 				button: {
 					'background-color': 'black',

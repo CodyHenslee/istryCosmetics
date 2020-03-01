@@ -1,0 +1,8 @@
+.shopify-buy__btn:hover,
+  .shopify-buy__btn:focus {
+    background-color: #42cfff;
+	}
+
+.shopify-buy__cart-toggle:hover {
+    background-color: #42cfff;
+  }

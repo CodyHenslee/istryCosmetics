@@ -19,6 +19,7 @@ ui.createComponent('product', {
 	node: document.getElementById('product'),
     options: {
       product: {
+		 iframe: false,
 		 width: '100%',
 		 layout: 'horizontal',
           contents: {
@@ -39,6 +40,7 @@ ui.createComponent('product', {
         
 		},
 	  toggle: {
+		  iframe: false,
 		    styles: {
 				toggle: {
 					'background-color': 'black',
@@ -49,6 +51,7 @@ ui.createComponent('product', {
 			}
 		},
 		cart: {
+			iframe: false,
 			styles: {
 				button: {
 					'background-color': 'black',
@@ -61,4 +64,5 @@ ui.createComponent('product', {
     }
 
 }).then(function(product){console.log(product);})
+
 

@@ -145,7 +145,7 @@ h5, h6          { font-weight: bolder }
 
     header nav ul li{
         display: block;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
 
     header nav ul li a{
@@ -1106,7 +1106,7 @@ h5, h6          { font-weight: bolder }
     overflow: hidden;
     display: block;
     position: relative;
-    background-color: #00cc00;
+    background-color: #ffe296;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1119,7 +1119,7 @@ h5, h6          { font-weight: bolder }
     overflow: hidden;
     display: block;
     position: relative;
-    background-color: #ff3300;
+    background-color: #ffab8c;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;

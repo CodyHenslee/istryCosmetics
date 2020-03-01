@@ -34,6 +34,7 @@ ui.createComponent('product', {
         
 		},
 		toggle: {
+			iframe: false,
 			styles: {
 				toggle: {
 					'background-color': 'black',
@@ -44,6 +45,7 @@ ui.createComponent('product', {
 			}
 		},
 		cart: {
+			iframe: false,
 			styles: {
 				button: {
 					'background-color': 'black',
