@@ -1086,6 +1086,164 @@ h5, h6          { font-weight: bolder }
     }
 }
 
+    header ul.social{
+        list-style: none;
+        margin-bottom: 5px;
+    }
+
+    header ul.social li{
+        display: block;
+        float: left;
+        position: relative;
+        margin: 0 15px 15px 0;
+    }
+
+
+    header ul.social li a{
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: url('../img/sm.png') no-repeat;
+        background-position: 0 0;
+    }
+
+
+    header ul.social li a:hover{
+        background: url('../img/sm-hover.png') no-repeat;
+    }
+
+
+
+    header ul.social li a.fb,
+    header ul.social li a.fb:hover{
+        background-position: -109px 0;
+    }
+
+
+    header ul.social li a.youtube,
+    header ul.social li a.youtube:hover{
+        background-position: -145px -73px;
+    }
+
+    header ul.social li a.instagram,
+    header ul.social li a.instagram:hover{
+        background-position: 0 -35px;
+    }
+
+    header ul.social li a.twitter,
+    header ul.social li a.twitter:hover{
+        background-position: -72px -72px;
+    }
+
+    header ul.social li a.snapchat,
+    header ul.social li a.snapchat:hover{
+        background-position: -145px -35px;
+    }
+
+    header ul.social li a.rss,
+    header ul.social li a.rss:hover{
+        background-position: -155px 0;
+    }
+
+    header .rights p{
+        color: #454545;
+        font-family: "raleway-regular", arial;
+        font-size: 11px;
+        letter-spacing: 1px;
+        line-height: 18px;
+    }
+
+    header .rights a{
+        font-family: "raleway-bold", arial;
+        font-weight: bold;
+        text-decoration: none;
+    }
+	header2 {
+text-align: center;
+align-items:center;	
+}
+
+header2.footer{
+		text-align: center;
+        position: absolute;
+        bottom: 50px;
+    }
+
+       header2 ul.social{
+    	margin: 10px auto;
+    	width: 225px;
+        list-style: none;
+        margin-bottom: 5px;
+    }
+
+    header2 ul.social li{
+        display: block;
+        float: left;
+        position: relative;
+        margin: 0 15px 15px 0;
+    }
+
+
+    header2 ul.social li a{
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: url('../img/sm.png') no-repeat;
+        background-position: 0 0;
+    }
+
+
+    header2 ul.social li a:hover{
+        background: url('../img/sm-hover.png') no-repeat;
+    }
+
+
+
+    header2 ul.social li a.fb,
+    header2 ul.social li a.fb:hover{
+        background-position: -109px 0;
+    }
+
+
+    header2 ul.social li a.youtube,
+    header2 ul.social li a.youtube:hover{
+        background-position: -145px -73px;
+    }
+
+    header2 ul.social li a.instagram,
+    header2 ul.social li a.instagram:hover{
+        background-position: 0 -35px;
+    }
+
+    header2 ul.social li a.twitter,
+    header2 ul.social li a.twitter:hover{
+        background-position: -72px -72px;
+    }
+
+    header2 ul.social li a.snapchat,
+    header ul.social li a.snapchat:hover{
+        background-position: -145px -35px;
+    }
+
+    header2 ul.social li a.rss,
+    header2 ul.social li a.rss:hover{
+        background-position: -155px 0;
+    }
+
+    header2 .rights p{
+        color: #454545;
+        font-family: "raleway-regular", arial;
+        font-size: 11px;
+        letter-spacing: 1px;
+        line-height: 18px;
+    }
+
+    header2 .rights a{
+        font-family: "raleway-bold", arial;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
 @media (max-width:722px){
 .top1{
     width: 100%;
@@ -1314,6 +1472,92 @@ h5, h6          { font-weight: bolder }
         left: 0;
         z-index: 9999;
 }
+
+header2 {
+text-align: center;
+align-items:center;	
+}
+
+header2.footer{
+		text-align: center;
+        position: absolute;
+        bottom: 50px;
+    }
+
+       header2 ul.social{
+    	margin: 10px auto;
+    	width: 225px;
+        list-style: none;
+        margin-bottom: 5px;
+    }
+
+    header2 ul.social li{
+        display: block;
+        float: left;
+        position: relative;
+        margin: 0 15px 15px 0;
+    }
+
+
+    header2 ul.social li a{
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: url('../img/sm.png') no-repeat;
+        background-position: 0 0;
+    }
+
+
+    header2 ul.social li a:hover{
+        background: url('../img/sm-hover.png') no-repeat;
+    }
+
+
+
+    header2 ul.social li a.fb,
+    header2 ul.social li a.fb:hover{
+        background-position: -109px 0;
+    }
+
+
+    header2 ul.social li a.youtube,
+    header2 ul.social li a.youtube:hover{
+        background-position: -145px -73px;
+    }
+
+    header2 ul.social li a.instagram,
+    header2 ul.social li a.instagram:hover{
+        background-position: 0 -35px;
+    }
+
+    header2 ul.social li a.twitter,
+    header2 ul.social li a.twitter:hover{
+        background-position: -72px -72px;
+    }
+
+    header2 ul.social li a.snapchat,
+    header ul.social li a.snapchat:hover{
+        background-position: -145px -35px;
+    }
+
+    header2 ul.social li a.rss,
+    header2 ul.social li a.rss:hover{
+        background-position: -155px 0;
+    }
+
+    header2 .rights p{
+        color: #454545;
+        font-family: "raleway-regular", arial;
+        font-size: 11px;
+        letter-spacing: 1px;
+        line-height: 18px;
+    }
+
+    header2 .rights a{
+        font-family: "raleway-bold", arial;
+        font-weight: bold;
+        text-decoration: none;
+    }
 @media (max-width:595px){
 	.main .work{
         width: 100%;
