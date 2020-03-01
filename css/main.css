@@ -242,8 +242,12 @@ h5, h6          { font-weight: bolder }
     .close_menu{
         display: none;
     }
+	header2 {
+        display: none;
+    }
 
 }
+
 
 #menu_icon,
 .close_menu{
@@ -1158,7 +1162,9 @@ h5, h6          { font-weight: bolder }
         font-weight: bold;
         text-decoration: none;
     }
-	header2 {
+
+header2 {
+display: blcok;
 text-align: center;
 align-items:center;	
 }
@@ -1474,6 +1480,7 @@ header2.footer{
 }
 
 header2 {
+display: block;
 text-align: center;
 align-items:center;	
 }
@@ -1558,6 +1565,7 @@ header2.footer{
         font-weight: bold;
         text-decoration: none;
     }
+	
 @media (max-width:595px){
 	.main .work{
         width: 100%;
