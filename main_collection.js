@@ -39,6 +39,9 @@ ui.createComponent('collection', {
 			},
         
 		},
+		productSet: {
+			iframe: true,
+		},
 		toggle: {
 			iframe: false,
 			styles: {
