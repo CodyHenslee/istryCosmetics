@@ -470,7 +470,7 @@ input[type=number]::-webkit-outer-spin-button {
 @media (min-width: 800px) {
     .shopify-buy__layout-horizontal:not(.no-image) .shopify-buy__product-img-wrapper {
       float: left;
-      width: 60%;
+      width: 50%;
     }
 
     .shopify-buy__layout-horizontal:not(.no-image) .shopify-buy__product__title,
@@ -480,9 +480,9 @@ input[type=number]::-webkit-outer-spin-button {
     .shopify-buy__layout-horizontal:not(.no-image) .shopify-buy__btn-and-quantity,
     .shopify-buy__layout-horizontal:not(.no-image) > .shopify-buy__btn-wrapper,
     .shopify-buy__layout-horizontal:not(.no-image) > .shopify-buy__quantity-container,
-    .shopify-buy__layout-horizontal:not(.no-image) .shopify-buy__product__variant-selectors {
+    /*.shopify-buy__layout-horizontal:not(.no-image) .shopify-buy__product__variant-selectors {
       margin-left: calc(60% + 25px);
-    }
+    }*/
 }
 .no-image .shopify-buy__product-img-wrapper {
     display: none;
