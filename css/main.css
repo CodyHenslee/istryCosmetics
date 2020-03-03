@@ -831,6 +831,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .work_nav .btn{
+    padding-top: 4px;
     float: right;
 }
 
