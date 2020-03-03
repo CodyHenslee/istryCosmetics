@@ -1684,7 +1684,7 @@ header2.footer{
 header{
         display: block;
         width: 100%;
-        min-height: 100px;
+        min-height: 140px;
         padding: 0;
         position: relative;
     }
