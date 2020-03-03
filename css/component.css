@@ -309,7 +309,7 @@
 }
 
 .action--close {
-	font-size: 1.5em;
+	font-size: 2em;
 	top: 0.5em;
 	right: 1em;
 	display: none;
@@ -381,6 +381,13 @@
 }
 
 @media screen and (max-width: 550px) {
+.menu__wrap {
+	position: absolute;
+	top: 3.7em;
+	bottom: 0;
+	overflow: hidden;
+	width: 100%;
+}
 .menu__link {
 	display: block;
 	width: 100%;
@@ -392,5 +399,21 @@
 	text-decoration: none;
 	border-top: 1px solid #f7f5f5;
 	background: #fff;
+}
+.action--close {
+	top: 1.5em;
+}
+.menu__back {
+	font-size: 1.25em;
+	position: absolute;
+	z-index: 100;
+	top: 1.5em;
+	left: 2.25em;
+	margin: 0;
+	padding: 0 0 0 0; */
+	cursor: pointer;
+	color: #2a2b30;
+	border: none;
+	background: none;
 }
 }
