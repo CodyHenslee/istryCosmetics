@@ -385,7 +385,7 @@
 	display: block;
 	width: 100%;
 	padding: 25px 0px 25px 20px;
-	/* text-align: center; */
+	text-align: left;
 	color: #454545;
 	font-family: "raleway-regular", arial;
 	font-size: 20px;
