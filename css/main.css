@@ -1227,7 +1227,7 @@ h5, h6          { font-weight: bolder }
     header{
         display: block;
         width: 100%;
-        min-height: 100px;
+        min-height: 200px;
         padding: 0;
         position: relative;
     }
@@ -1680,6 +1680,14 @@ header2.footer{
     -o-background-size: cover;
     background-position: 50% 50%;
 }
+
+header{
+        display: block;
+        width: 100%;
+        min-height: 100px;
+        padding: 0;
+        position: relative;
+    }
 
 	header #menu_icon,
     header .close_menu{
