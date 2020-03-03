@@ -38,10 +38,15 @@
 
 .menu {
 	position: fixed;
-	top: 141.45px;
+	top: 155px;
 	width: 280px;
-	height: calc(100vh - 120px);
+	height: calc(100vh - 300px);
 	background: #ffffff;
+	overflow-y: scroll;
+}
+
+.menu::-webkit-scrollbar {
+	color: #fff;	
 }
 
 .menu__wrap {
@@ -362,6 +367,7 @@
 		transform: translate3d(-100%, 0, 0);
 		-webkit-transition: -webkit-transform 0.3s;
 		transition: transform 0.3s;
+		overflow-y: hidden;
 	}
 	.menu--open {
 		-webkit-transform: translate3d(0, 0, 0);
