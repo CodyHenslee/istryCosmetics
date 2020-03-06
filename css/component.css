@@ -305,7 +305,7 @@
 
 .action--open {
 	font-size: 3em;
-	top: 80px;
+	top: 75px;
 	right: 1em;
 	display: none;
 	color: #000;
@@ -377,6 +377,7 @@
 }
 @media screen and (max-width: 722px) {
 	.action--open {
+		transform: rotate(90deg);
 		top: 1.10em;
 		font-size: 1.25em;
 		display: block;
