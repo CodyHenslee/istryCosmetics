@@ -1233,7 +1233,7 @@ h5, h6          { font-weight: bolder }
         position: relative;
     }
     header .logo{
-        margin: 20px auto;
+        margin: 20px 20px;
         padding-top: 30px;
         padding-left: 5px;
         float: left;

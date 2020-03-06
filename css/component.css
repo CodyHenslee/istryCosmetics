@@ -357,6 +357,7 @@
 	.action--open,
 	.action--close {
 		display: block;
+		position: absolute;
 	}
 	.menu {
 		z-index: 1000;
@@ -376,7 +377,7 @@
 }
 @media screen and (max-width: 722px) {
 	.action--open {
-		top: 1.5em;
+		top: 1.10em;
 		font-size: 1.25em;
 		display: block;
 	}
@@ -407,10 +408,10 @@
 	background: #fff;
 }
 .action--close {
-	top: 1.5em;
+	top: 1.25em;
 }
 .menu__back {
-	font-size: 1.25em;
+	font-size: 1.10em;
 	position: absolute;
 	z-index: 100;
 	top: 1.5em;
