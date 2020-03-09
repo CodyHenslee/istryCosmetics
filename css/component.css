@@ -383,7 +383,8 @@
 		display: block;
 	}
 	.action--close {
-		top: 1.25em;
+		top: 1.25em
+		;
 		font-size: 1.25em;
 		display: block;
 	}
