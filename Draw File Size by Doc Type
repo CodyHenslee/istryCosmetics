@@ -1,0 +1,20 @@
+SELECT
+draw.DRAWER_NAME,
+dt.DOC_TYPE_NAME,
+FORMAT(inst.CREATION_TIME, 'yyyy') [Year],
+FORMAT(inst.CREATION_TIME, 'MMMM') [Month],
+CONVERT(numeric(10,2),ROUND(SUM(phsob.FILE_SIZE * 1.0) / 1048576, 2)) [FileSizeMB],
+CONVERT(numeric(10,2),ROUND(SUM(phsob.FILE_SIZE * 1.0) / 1024, 2)) [FileSizeKB],
+SUM(phsob.FILE_SIZE) [FileSize]
+FROM inuser.IN_DOC doc WITH (NOLOCK)
+INNER JOIN inuser.IN_DRAWER draw WITH (NOLOCK) on doc.DRAWER_ID = draw.DRAWER_ID
+INNER JOIN inuser.IN_INSTANCE inst WITH (NOLOCK) on doc.INSTANCE_ID = inst.INSTANCE_ID
+INNER JOIN inuser.IN_DOC_TYPE dt WITH (NOLOCK) on doc.DOC_TYPE_ID = dt.DOC_TYPE_ID
+INNER JOIN inuser.IN_VERSION ver WITH (NOLOCK) on doc.DOC_ID = ver.DOC_ID
+INNER JOIN inuser.IN_LOGOB logob WITH (NOLOCK) on ver.VERSION_ID = logob.VERSION_ID
+INNER JOIN inuser.IN_PHSOB phsob WITH (NOLOCK) on logob.PHSOB_ID = phsob.PHSOB_ID
+WHERE
+draw.DRAWER_NAME = 'Admissions' --Put the Drawer Name Here
+/*AND inst.CREATION_TIME >= '1/1/2020' --Comment this out to see all documents*/
+GROUP BY draw.DRAWER_NAME, dt.DOC_TYPE_NAME, FORMAT(inst.CREATION_TIME, 'yyyy'), FORMAT(inst.CREATION_TIME, 'MMMM')
+ORDER BY 1

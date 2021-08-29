@@ -321,7 +321,7 @@
 	color: #45464e;
 }
 
-@media screen and (max-width: 1099px) {
+@media screen and (max-width: 1200px) {
 	.menu__link {
 	display: block;
     width: 100%;

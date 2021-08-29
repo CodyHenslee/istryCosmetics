@@ -33,7 +33,8 @@
 
 }
 
-@font-face {font-family: "AnoStencil W00 Thin";
+@font-face {
+    font-family: "AnoStencil W00 Thin";
   src: url('../fonts/AnoStencil W00 Thin.eot'); /* IE9*/
   src: url('../fonts/AnoStencil W00 Thin.eot?#iefix') format("embedded-opentype"), /* IE6-IE8 */
   url('../fonts/AnoStencil W00 Thin.woff2') format("woff2"), /* chrome、firefox */
@@ -124,7 +125,7 @@ h5, h6          { font-weight: bolder }
 
 
 /*  Header  */
-@media (min-width:1099px){
+@media (min-width:1200px){
     header{
         display: block;
         position: fixed;
@@ -325,7 +326,7 @@ h5, h6          { font-weight: bolder }
     height: 100%;
     top: 0; 
     left: 0;
-    background:#9c9dff;
+    background: rgba(229, 111, 126, 0.85);
     opacity: 0;
 }
 .main .work .caption2{
@@ -335,7 +336,7 @@ h5, h6          { font-weight: bolder }
     height: 100%;
     top: 0; 
     left: 0;
-    background: #ffe296;
+    background: rgba(153, 204, 204, 0.85);
     opacity: 0;
 }
 .main .work .caption3{
@@ -345,7 +346,7 @@ h5, h6          { font-weight: bolder }
     height: 100%;
     top: 0; 
     left: 0;
-    background: #ffab8c;
+    background: rgba(255, 171, 140, 0.85);
     opacity: 0;
 }
 .main .work .caption4{
@@ -355,7 +356,7 @@ h5, h6          { font-weight: bolder }
     height: 100%;
     top: 0; 
     left: 0;
-    background: #7cff97;
+    background: rgba(124, 255, 151, 0.85);
     opacity: 0;
 }
 .main .work .caption5{
@@ -365,7 +366,7 @@ h5, h6          { font-weight: bolder }
     height: 100%;
     top: 0; 
     left: 0;
-    background: #ff6970;
+    background: rgba(255, 105, 112, 0.85);
     opacity: 0;
 }
 .main .work .caption6{
@@ -375,7 +376,7 @@ h5, h6          { font-weight: bolder }
     height: 100%;
     top: 0; 
     left: 0;
-    background: #d287f2;
+    background: rgba(210, 135, 242, 0.85);
     opacity: 0;
 }
 .main .work .caption7{
@@ -385,7 +386,7 @@ h5, h6          { font-weight: bolder }
     height: 100%;
     top: 0; 
     left: 0;
-    background: #f9e75e;
+    background: rgba(249, 231, 94, 0.85);
     opacity: 0;
 }
 .main .work .caption8{
@@ -395,17 +396,27 @@ h5, h6          { font-weight: bolder }
     height: 100%;
     top: 0; 
     left: 0;
-    background: #41ea69;
+    background: rgba(65, 234, 105, 0.85);
     opacity: 0;
 }
-.main .work .captionam{
+.main .work .caption9{
     position: absolute;
     display: block;
     width: 100%;
     height: 100%;
     top: 0; 
     left: 0;
-    background: #42cfff;
+    background: rgba(66, 207, 255, 0.85);
+    opacity: 0;
+}
+.main .work .caption10{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0; 
+    left: 0;
+    background: rgba(66, 207, 255, 0.85);
     opacity: 0;
 }
 .main .work a:hover .caption{
@@ -432,7 +443,10 @@ h5, h6          { font-weight: bolder }
 .main .work a:hover .caption8{
     opacity: 1;
 }
-.main .work a:hover .captionam{
+.main .work a:hover .caption9{
+    opacity: 1;
+}
+.main .work a:hover .caption10{
     opacity: 1;
 }
 
@@ -501,7 +515,15 @@ h5, h6          { font-weight: bolder }
     top: 50%;
     margin-top: -50px;
 }
-.work .captionam .work_title{
+.work .caption9 .work_title{
+    display: block;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    margin-top: -50px;
+}
+.work .caption10 .work_title{
     display: block;
     width: 100%;
     position: absolute;
@@ -616,7 +638,20 @@ h5, h6          { font-weight: bolder }
     border-bottom: 1px solid #bfbbbb;
     border-top: 1px solid #bfbbbb;
 }
-.main .work .captionam h1{
+.main .work .caption9 h1{
+    position: relative;
+    display: inline-block;
+    max-width: 90%;
+    padding: 20px 0;
+    z-index: 77;
+    color: #000000;
+    font-family: "AnoStencil W00 Thin", arial;
+    font-size: 24px;
+    letter-spacing: .5px;
+    border-bottom: 1px solid #bfbbbb;
+    border-top: 1px solid #bfbbbb;
+}
+.main .work .caption10 h1{
     position: relative;
     display: inline-block;
     max-width: 90%;
@@ -637,6 +672,7 @@ h5, h6          { font-weight: bolder }
 
 
 /*  Inner Page  */
+
 .top1{
     width: 100%;
     height: 155px;
@@ -950,11 +986,121 @@ h5, h6          { font-weight: bolder }
 
 }
 
+.main .work2{
+    display: block;
+    width: 33.33333333333333%;
+    height: auto;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
 
+.main .work2 .media{
+    width: 100%;
+    vertical-align: middle;
+}
 
+.main .work2 .caption{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0; 
+    left: 0;
+    background:rgba(255,255,255, 0.8);
+    opacity: 0;
+}
 
+.main .work2 .caption:hover{
+    opacity: 1;
+}
 
+.work2 .caption .work_title{
+	display: block;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	top: 35%;
+	margin-top: -60px;
+	/*background:#ffffff;*/
+}
 
+.main .work2 .caption h1{
+    position: relative;
+    display: inline-block;
+    max-width: 90%;
+    padding: 10px 0;
+    z-index: 77;
+    color: #000000;
+    font-family: "AnoStencil W00 Thin", arial;
+    font-size: 24px;
+	font-weight: 200;
+    letter-spacing: .5px;
+    border-bottom: 1px solid #bfbbbb;
+    /*border-top: 1px solid #bfbbbb;*/
+}
+.work2 .caption .work_description{
+	display: block;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	/*background:#ffffff;*/
+}
+
+.main .work2 .caption h2{
+	position: relative;
+    display: inline-block;
+    max-width: 90%;
+    padding: 10px 0;
+    z-index: 77;
+    color: #000000;
+    font-family: "raleway-regular", arial;
+    font-size: 18px;
+    font-weight: normal;
+	letter-spacing: .5px;
+  
+}
+
+.work2 .caption .work_size{
+	display: block;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	/*background:#ffffff;*/
+	
+}
+
+.main .work2 .caption h3{
+	position: relative;
+    display: inline-block;
+    max-width: 90%;
+    padding: 15px 0;
+    z-index: 77;
+    color: #000000;
+    font-family: "raleway-regular", arial;
+    font-size: 14px;
+    font-weight: bolder;
+	letter-spacing: .5px;
+  
+}
+.work2 .caption .add_to_cart{
+	display: block;
+	width: 100%;
+	/*float: right;*/
+	/*position: absolute;*/
+	text-align: center;
+	/*background:#ffffff;*/
+	
+}
+.work2 .caption .details{
+	display: block;
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+	/*margin-bottom: 10px;*/
+	/*background:#ffffff;*/
+	
+}
 
 /*  Contact page map  */
 #map .map_adresse{
@@ -1024,7 +1170,7 @@ h5, h6          { font-weight: bolder }
 
 
 /*  Responsive code  */
-@media (max-width:1099px){
+@media (max-width:1200px){
 	.top1{
     width: 100%;
     height: 125px;
@@ -1308,6 +1454,9 @@ h5, h6          { font-weight: bolder }
     }*/
 
     .main .work{
+        width: 50%;
+    }
+	   .main .work2{
         width: 50%;
     }
     .main{
@@ -1711,6 +1860,9 @@ header{
         margin: 0px 30px 30px 0;
 	}
 	.main .work{
+        width: 100%;
+    }
+	.main .work2{
         width: 100%;
     }
 	.show_menu{
